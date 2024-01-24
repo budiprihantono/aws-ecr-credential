@@ -3,86 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Helm Chart Repository</title>
+  <title>Helm Charts</title>
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f8f9fa;
-      margin: 0;
-      padding: 0;
+      font-family: Arial, sans-serif;
+      margin: 20px;
     }
-
-    header {
-      background-color: #343a40;
-      color: #fff;
-      padding: 1.5rem;
-      text-align: center;
-    }
-
-    section {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 2rem;
-      background-color: #fff;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
-    }
-
     h1 {
-      color: #343a40;
+      color: #333;
     }
-
-    p {
-      color: #555;
-    }
-
-    .chart-list {
-      list-style: none;
+    ul {
+      list-style-type: none;
       padding: 0;
-      margin-top: 1.5rem;
     }
-
-    .chart-item {
-      border-bottom: 1px solid #eee;
-      padding: 1.5rem 0;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+    li {
+      margin-bottom: 10px;
     }
-
-    .chart-item a {
+    a {
       text-decoration: none;
-      color: #007bff;
+      color: #0066cc;
       font-weight: bold;
     }
-
-    .chart-item:last-child {
-      border-bottom: none;
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-
-  <header>
-    <h1>Awesome Kubernetes Helm Charts</h1>
-  </header>
-
-  <section>
-    <h1>Available Charts</h1>
-    <p>Explore the latest Helm charts for your Kubernetes deployments.</p>
-    <ul class="chart-list">
-      <!-- Replace the placeholders with your Helm chart information -->
-      <li class="chart-item">
-        <span>Kubernetes Manifest</span>
-        <a href="https://budiprihantono.github.io/k8s_helm_charts/">View Chart</a>
-      </li>
-      <li class="chart-item">
-        <span>AWS ECR Credential</span>
-        <a href="https://budiprihantono.github.io/aws-ecr-credential/">View Chart</a>
-      </li>
-      <!-- Add more chart items as needed -->
-    </ul>
-  </section>
-
+  <h1>Helm Charts</h1>
+  <ul>
+    <li><a href="https://budiprihantono.github.io/k8s_helm_charts/">Kubernetes Manifest</a></li>
+    <li><a href="https://budiprihantono.github.io/aws-ecr-credential/">AWS ECR Credential</a></li>
+    <!-- Add more chart entries as needed -->
+  </ul>
 </body>
 </html>
