@@ -3,7 +3,25 @@ entries:
   aws-ecr-credential:
   - apiVersion: v1
     appVersion: 1.4.2
-    created: "2024-01-24T19:09:49.780396+07:00"
+    created: "2024-01-24T19:11:16.140074+07:00"
+    description: This Chart seemlessly integrates Kubernetes with AWS ECR
+    digest: 53f404346f12515baad9555b8c767488c90ccf74b66cbeb2ae9183f498b93df7
+    keywords:
+    - aws ecr
+    - imagePullSecrets
+    - kubernetes
+    maintainers:
+    - email: budiprihantono90@gmail.com
+      name: budiprihantono
+    name: aws-ecr-credential
+    sources:
+    - https://github.com/architectminds/helm-charts/tree/master/charts/aws-ecr-credential
+    urls:
+    - aws-ecr-credential-1.4.3.tgz
+    version: 1.4.3
+  - apiVersion: v1
+    appVersion: 1.4.2
+    created: "2024-01-24T19:11:16.138511+07:00"
     description: This Chart seemlessly integrates Kubernetes with AWS ECR
     digest: 161460265a034ce199037d7577e47e886e55d408b2a4b710bdeb219c5035d264
     keywords:
@@ -19,4 +37,4 @@ entries:
     urls:
     - aws-ecr-credential-1.4.2.tgz
     version: 1.4.2
-generated: "2024-01-24T19:09:49.778326+07:00"
+generated: "2024-01-24T19:11:16.13621+07:00"
